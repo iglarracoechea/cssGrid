@@ -1,0 +1,14 @@
+.contenedor{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fill, minmax(100px,1fr));
+}
+
+/*auto fill:va a rellenar todo nuestra fila con todas columnas que pueda poner dentro 
+y va a crear columnas implicas en casa de que quepan, cuando no caben las coloca debajo 
+<auto fit:rellena todo el contenedor con las columnas que tenemos disponible;
+*/
+
+div:nth-child(2){
+	order: -1;  /*igual que en flexbox*/	
+}

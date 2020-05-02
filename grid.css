@@ -1,0 +1,17 @@
+/*tres tipos de tracks(lineas):continua, discontinua y una punteada(pequeños puntos)
+primera linea: indica donde comienza y donde termina nuestra grid explicita(la que designamos con los valores de abajo)
+grid implicita: lo que designa el grid.;
+No hay que preocuparse con trabajar con porcentajes, en grid se usa una nueva unidad. 
+fr(fracción): reparte segun espacio sobrante.Todo el espacio disponible lo reparte entre los elementos que tengan el fr
+
+*/
+.contenedor{
+	display: grid; /*grid=rejilla en español*/
+	grid-template-columns: 100px 2fr 100px; /*especifica el tamaño(ancho) que queremos de cada columna. Se reparte el espacio*/
+	grid-template-rows: 150px 300px;  /*misma funcionalidad que columns pero aplicado a filas(rows/alto).Se reparte el espacio:;*/
+	grid-gap:20px;  /*le agrega espaciados a cada uno de los elementos*/
+}
+
+@media  {
+	
+}

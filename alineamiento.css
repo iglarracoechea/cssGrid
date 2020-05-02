@@ -1,0 +1,15 @@
+.contenedor{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3,200px);
+	
+	justify-items:auto; /*auto y stretch abarca todo el espacio disponible alineación horizontal. center y end*/	
+	align-items: start;  /*alinea verticalmente. Valido solo para los items*/
+}
+
+.contenedor .box{
+	background: #ff8000;
+	justify-self:stretch;    /*aplica a un elemento solo en particular*/
+	align-self: stretch; 
+}

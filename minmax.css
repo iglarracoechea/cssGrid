@@ -1,0 +1,20 @@
+.contenedor{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: minmax(300px,1fr) 1fr; /*se usa para responsive web, y se combina con media queries*/
+	grid-template-rows: minmax(150px,auto) 350px;/*auto=Tamaño que necesite.Tamaño minimo y máximo.Se usa más para filas(rows)*/
+}
+
+[type="password"]{
+
+}
+
+[required]{
+
+}
+
+
+[class$=""]
+
+
+[href*=""]
